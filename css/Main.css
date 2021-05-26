@@ -156,7 +156,7 @@
 }
 
 .list-item{
-    height: 180px;
+    height: 200px;
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -165,8 +165,9 @@
 }
 
 .list-item__button{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+    background-color: #662E1C;
 }
 
 .list-item__button:active{
@@ -175,7 +176,7 @@
 
 .list-item__img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: #662E1C;
 }
 
